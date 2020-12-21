@@ -44,7 +44,7 @@ The Google Script App is an alternative to the Python script detailed in the fir
 	B | =GOOGLEFINANCE(A***n***)
 	C | =If(IFNA(GOOGLEFINANCE(A***n***,"expenseratio"),false),"mutual fund","stock")
 	
-	![Screen Shot of Google Sheet](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX//img/sheet.png)
+	![Screen Shot of Google Sheet](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/tree/main/imgsheet.png)
 	
 
 * [Add](https://zapier.com/learn/google-sheets/google-apps-script-tutorial/) [Code.gs](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/gs/Code.gs) Google Script App to the Google Sheet.
@@ -53,9 +53,9 @@ The Google Script App is an alternative to the Python script detailed in the fir
 
 * As noted, the Google App Script will add a ***Util*** menu option with a ***Generate quotes.ofx file*** sub-menu option.  Selecting this option will create the file ***quotes.ofx** in your [Google Drive](https://www.google.com/drive/) root folder along with a button to download the file.
 
-![Screen Shot of generate OFX file](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX//img/generate.png)
+![Screen Shot of generate OFX file](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/tree/main/img/generate.png)
 
-![Screen Shot of download OFX file](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX//img/download.png)
+![Screen Shot of download OFX file](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/tree/main/img/download.png)
 
 * When Microsoft Money was installed, it created a [file association](https://blogs.technet.microsoft.com/windowsinternals/2017/10/25/windows-10-how-to-configure-file-associations-for-it-pros/) for .ofx files with the [Microsoft Money Import Handler](http://moneymvps.org/faq/article/407.aspx).  
   
