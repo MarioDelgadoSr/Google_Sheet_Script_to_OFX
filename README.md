@@ -48,7 +48,7 @@ The Google Script App is an alternative to the Python script detailed in the fir
 	
 * Add ([tutorial](https://zapier.com/learn/google-sheets/google-apps-script-tutorial/)) [Code.gs](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/blob/main/gs/Code.gs) Google Script App to the Google Sheet.
 
-  Note: The script's ***onOpen()*** function will run every time the Google Sheet is opened.  If Google Sheet with the security data is already open, close it and re-open to add the ***Util*** menu option.
+  Note: The script's ***onOpen()*** function will run every time the Google Sheet is opened.  If your Google Sheet with the security data is already open, close it and re-open it to add the ***Util*** menu option.
 
 * As noted, the Google App Script will add a ***Util*** menu option with a ***Generate quotes.ofx file*** sub-menu option.  Selecting this option will create the file ***quotes.ofx** in your [Google Drive](https://www.google.com/drive/) root folder along with a button to download the file.
 
