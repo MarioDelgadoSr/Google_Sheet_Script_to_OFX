@@ -44,7 +44,7 @@ The Google Script App is an alternative to the Python script detailed in the fir
 	B | =GOOGLEFINANCE(A***n***)
 	C | =If(IFNA(GOOGLEFINANCE(A***n***,"expenseratio"),false),"mutual fund","stock")
 	
-	![Screen Shot of Google Sheet](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/blob/master/img/sheet.png)
+	![Screen Shot of Google Sheet](https://raw.githubusercontent.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/main/img/sheet.png)
 	
 	![Screen Shot of required column in custom portfolio view](https://github.com/MarioDelgadoSr/Excel_VBA_Morningstar_to_OFX/blob/master/img/portfolio.png)	
 	
