@@ -46,6 +46,8 @@ The Google Script App is an alternative to the Python script detailed in the fir
 	
 	![Screen Shot of Google Sheet](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/blob/master/img/sheet.png)
 	
+	![Screen Shot of required column in custom portfolio view](https://github.com/MarioDelgadoSr/Excel_VBA_Morningstar_to_OFX/blob/master/img/portfolio.png)	
+	
 
 * [Add](https://zapier.com/learn/google-sheets/google-apps-script-tutorial/) [Code.gs](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/gs/Code.gs) Google Script App to the Google Sheet.
 
