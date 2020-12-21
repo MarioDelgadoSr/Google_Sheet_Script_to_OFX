@@ -46,18 +46,15 @@ The Google Script App is an alternative to the Python script detailed in the fir
 	
 	![Screen Shot of Google Sheet](https://raw.githubusercontent.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/main/img/sheet.png)
 	
-	![Screen Shot of required column in custom portfolio view](https://github.com/MarioDelgadoSr/Excel_VBA_Morningstar_to_OFX/blob/master/img/portfolio.png)	
-	
-
 * [Add](https://zapier.com/learn/google-sheets/google-apps-script-tutorial/) [Code.gs](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/gs/Code.gs) Google Script App to the Google Sheet.
 
   Note: The script's ***onOpen()*** function will run every time the Google Sheet is opened.  If Google Sheet with the security data is already open, close it and re-open to add the ***Util*** menu option.
 
 * As noted, the Google App Script will add a ***Util*** menu option with a ***Generate quotes.ofx file*** sub-menu option.  Selecting this option will create the file ***quotes.ofx** in your [Google Drive](https://www.google.com/drive/) root folder along with a button to download the file.
 
-![Screen Shot of generate OFX file](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX//blob/master/img/generate.png)
+![Screen Shot of generate OFX file](https://raw.githubusercontent.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/main/img/generate.png)
 
-![Screen Shot of download OFX file](https://github.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/blob/master/img/download.png)
+![Screen Shot of download OFX file](https://raw.githubusercontent.com/MarioDelgadoSr/Google_Sheet_Script_to_OFX/main/img/download.png)
 
 * When Microsoft Money was installed, it created a [file association](https://blogs.technet.microsoft.com/windowsinternals/2017/10/25/windows-10-how-to-configure-file-associations-for-it-pros/) for .ofx files with the [Microsoft Money Import Handler](http://moneymvps.org/faq/article/407.aspx).  
   
