@@ -50,6 +50,9 @@ function ofxFile() {
     // Date format: page 89, 3.2.8.2  Date and Datetime YYYYMMDDHHMMSS GMT
 
     const strDate = new Date().toISOString().substring(0,19).replace(/T/g,"").replace(/-/g,"").replace(/:/g,"");
+	
+    // Discussion of DTASOF tomorrow: 
+    // https://pocketsense.blogspot.com/2010/08/replacing-microsoft-money-continued.html	
     const tomorrow = new Date();
           tomorrow.setDate(tomorrow.getDate() + 1);
     const strTomorrow = tomorrow.toISOString().substring(0,10).replace(/T/g,"").replace(/-/g,"");
