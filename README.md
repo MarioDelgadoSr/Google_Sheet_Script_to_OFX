@@ -121,8 +121,8 @@ function ofxFile() {
 
     const strDate = new Date().toISOString().substring(0,19).replace(/T/g,"").replace(/-/g,"").replace(/:/g,"");
   
-    // Discussion of DTASOF tomorrow: 
-    // https://pocketsense.blogspot.com/2010/08/replacing-microsoft-money-continued.html
+    // Why DTASOF is set to tomorrow: 
+    // https://github.com/hleofxquotes/hleofxquotes/tree/master/dist/misc/quotes/timezone
     const tomorrow = new Date();
           tomorrow.setDate(tomorrow.getDate() + 1);
     const strTomorrow = tomorrow.toISOString().substring(0,10).replace(/T/g,"").replace(/-/g,"");
